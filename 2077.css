@@ -10,7 +10,6 @@
     --background-secondary: #000600;
 }
 
-
 .cm-header-1
 {
     color: var(--text-title-h1);
@@ -74,4 +73,32 @@
 
 .cm-strong {
     color: #00ff00;
+}
+
+/* Tags */
+.cm-s-obsidian span.cm-hashtag-begin,
+.cm-s-obsidian span.cm-hashtag,
+.cm-s-obsidian span.cm-hashtag-end,
+a.tag {
+    background-color: var(--text-accent);
+    color: white;
+    font-family: inherit;
+    padding: 2px 0px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cm-s-obsidian span.cm-hashtag-begin {
+    border-radius: 1em 0px 0px 1em;
+    padding-left: 5px;
+}
+
+.cm-s-obsidian span.cm-hashtag-end {
+    border-radius: 0px 1em 1em 0px;
+    padding-right: 5px;
+}
+
+a.tag {
+    border-radius: 1em;
+    padding: 2px 5px;
 }
